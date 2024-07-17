@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 87vh;
+    position: relative;
+}
+
+.main .box {
+    height: 87vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    max-width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+
+nav img {
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: gray;
+    opacity: 0.27;
+}
+
+.btn {
+    padding: 6px 36px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.053);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.hero_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+.main input{
+    background-color: rgba(23, 23, 23,0.7);
+    padding: 7px 111px 8px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgba(246, 238, 238,0.5);;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.secimg1{
+    position: relative;
+}
+.secimg1 img{
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg1 video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.first para{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* left: auto; */
+    right: 41px;
+}
+.firstclass{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondclass{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+}
